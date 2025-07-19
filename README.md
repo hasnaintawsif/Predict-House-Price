@@ -26,7 +26,7 @@ import pandas as pd
 x_new = pd.read_csv('input.csv')
 
 # Load trained model
-model = joblib.load('final_stacking_model.joblib')
+model = joblib.load('final_stacking_model.pkl')
 
 # Make predictions
 predictions = model.predict(x_new)
@@ -37,4 +37,4 @@ predictions = model.predict(x_new)
 ### Download the Trained Model
 
 Model file is large and hosted externally:
-[Download final_stacking_model.joblib]([https://drive.google.com/your-download-link](https://drive.google.com/drive/folders/17CwuvhEWMGfjBnpuBRzUpng36DxYl6s9?dmr=1&ec=wgc-drive-globalnav-goto))
+[Download final_stacking_model.pkl]([https://drive.google.com/your-download-link](https://drive.google.com/drive/folders/17CwuvhEWMGfjBnpuBRzUpng36DxYl6s9?dmr=1&ec=wgc-drive-globalnav-goto))
