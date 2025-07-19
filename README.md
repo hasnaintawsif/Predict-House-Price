@@ -23,7 +23,7 @@ import joblib
 import pandas as pd
 
 # Load new data
-x_new = pd.read_csv('your_input.csv')
+x_new = pd.read_csv('input.csv')
 
 # Load trained model
 model = joblib.load('stacking_model.joblib')
