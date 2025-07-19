@@ -26,7 +26,7 @@ import pandas as pd
 x_new = pd.read_csv('input.csv')
 
 # Load trained model
-model = joblib.load('stacking_model.joblib')
+model = joblib.load('final_stacking_model.joblib')
 
 # Make predictions
 predictions = model.predict(x_new)
