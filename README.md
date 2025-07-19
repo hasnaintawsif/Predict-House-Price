@@ -37,4 +37,4 @@ predictions = model.predict(x_new)
 ### Download the Trained Model
 
 Model file is large and hosted externally:
-[Download stacking\_model.joblib]([https://drive.google.com/your-download-link](https://drive.google.com/drive/folders/17CwuvhEWMGfjBnpuBRzUpng36DxYl6s9?dmr=1&ec=wgc-drive-globalnav-goto))
+[Download final_stacking_model.joblib]([https://drive.google.com/your-download-link](https://drive.google.com/drive/folders/17CwuvhEWMGfjBnpuBRzUpng36DxYl6s9?dmr=1&ec=wgc-drive-globalnav-goto))
